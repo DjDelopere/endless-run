@@ -2,7 +2,13 @@ const config = {
     type: Phaser.AUTO,
     width: 800,
     height: 400,
-    backgroundColor: '#050510', // Dark Cyberpunk Background
+    backgroundColor: '#050510',
+    scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        width: 800,
+        height: 400
+    },
     physics: {
         default: 'arcade',
         arcade: {
