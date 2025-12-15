@@ -1,9 +1,10 @@
 {
-  "version": 2,
-  "builds": [
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "routes": [
     {
-      "src": "./index.html",
-      "use": "@vercel/static"
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
