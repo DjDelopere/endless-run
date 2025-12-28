@@ -35,3 +35,8 @@ This project uses the following libraries:
 - Built with [Phaser 3](https://phaser.io/)
 - Sprites: Free Cyberpunk Sprites Pixel Art
 - Sounds: ZapSplat
+
+## Developers
+- Virgel Delopere - Project Manager
+- Sacha Mae Jaban - UI/UX/Frontend
+- Regie Baquiran - Backend
